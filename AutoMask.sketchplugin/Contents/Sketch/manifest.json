@@ -1,0 +1,25 @@
+{
+  "author" : "Patrick Hill",
+  "commands" : [
+    {
+      "script" : "automask.cocoascript",
+      "name" : "Auto Mask",
+      "handlers" : {
+        "run" : "autoMask"
+      },
+      "shortcut": "cmd shift m",
+      "identifier" : "auto-mask"
+    }
+  ],
+  "menu" : {
+    "items" : [
+      "auto-mask"
+    ],
+    "title" : "Auto Mask"
+  },
+  "identifier" : "https://github.com/patrickhill/SketchAutoMask",
+  "version" : "1.0",
+  "description" : "",
+  "authorEmail" : "",
+  "name" : "Auto Mask"
+}
