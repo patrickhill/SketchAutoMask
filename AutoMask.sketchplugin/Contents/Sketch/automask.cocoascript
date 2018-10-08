@@ -45,6 +45,7 @@ var autoMask = function(context) {
 			// add layer to it
 			layer.parent = group
 
+			// moves the group to the position of the masked layer so your layers don't get messed up
 			while (group.index > layerIndex) {
 				group.moveBackward();
 			}
