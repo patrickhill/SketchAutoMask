@@ -24,6 +24,7 @@ var autoMask = function(context) {
 			layerWidth = layer.frame.width1
 			layerHeight = layer.frame.height
 			groupName = layer.name + '-masked'
+			layerIndex = layer.index
 			parent = artboardsFromSelection.length > 0 ? artboardsFromSelection[0] : page
 
 			// create a group
@@ -39,6 +40,10 @@ var autoMask = function(context) {
 				name: 'mask',
 				frame: rect,
 				parent: group,
+				style: {
+					fills: [{ enabled: false }],
+					borders: [{ enabled: false }],
+				},
 			})
 
 			// add layer to it
