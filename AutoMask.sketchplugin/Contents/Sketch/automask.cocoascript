@@ -49,6 +49,10 @@ var autoMask = function(context) {
 			// add layer to it
 			layer.parent = group
 
+			while (group.index > layerIndex) {
+				group.moveBackward();
+			}
+
 			// make sure group fits to contents
 			group.adjustToFit()
 			
