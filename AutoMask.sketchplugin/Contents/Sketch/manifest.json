@@ -18,7 +18,7 @@
     "title" : "Auto Mask"
   },
   "identifier" : "https://github.com/patrickhill/SketchAutoMask",
-  "version" : "1.0",
+  "version" : "1.1",
   "description" : "Creates an editable mask of the selected layer",
   "authorEmail" : "patrickrhill@gmail.com",
   "name" : "Auto Mask"
