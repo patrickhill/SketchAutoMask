@@ -39,10 +39,6 @@ var autoMask = function(context) {
 				name: 'mask',
 				frame: rect,
 				parent: group,
-				style: {
-					fills: [{ enabled: false }],
-					borders: [{ enabled: false }],
-				},
 			})
 
 			// add layer to it
